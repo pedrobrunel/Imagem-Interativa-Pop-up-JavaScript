@@ -19,14 +19,14 @@ body {
     border-radius: 50%;
     cursor: pointer;
     transform: translate(-50%, -50%);
-    animation: blink 2s infinite alternate;
+    animation: blink 1.5s infinite alternate;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-weight: bold;
     font-size: 14px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .bolinhaNaImagem strong {
@@ -35,7 +35,7 @@ color: white;
 }
 
 @keyframes blink {
-    0% { opacity: 0.5; }
+    0% { opacity: 0.7; }
     100% { opacity: 0.1; }
 }
 dialog {
