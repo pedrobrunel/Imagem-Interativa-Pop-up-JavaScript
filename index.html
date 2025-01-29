@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://placehold.co/650x500.png" alt="Imagem Interativa" id="image">
+        <div class="hotspot" style="top: 10%; left: 20%;" onclick="showPopup('Informação 1')"><strong>𝕚</strong></div>
+        <div class="hotspot" style="top: 25%; left: 35%;" onclick="showPopup('Informação 2')"><strong>𝕚</strong></div>
+        <div class="hotspot" style="top: 40%; left: 50%;" onclick="showPopup('Informação 3')"><strong>𝕚</strong></div>
+        <div class="hotspot" style="top: 55%; left: 65%;" onclick="showPopup('Informação 4')"><strong>𝕚</strong></div>
+        <div class="hotspot" style="top: 70%; left: 80%;" onclick="showPopup('Informação 5')"><strong>𝕚</strong></div>
+    </div>
+        
+    <dialog id="infoDialog">
+        <p id="dialogText"></p>
+        <button onclick="closePopup()">Fechar</button>
+    </dialog>
+</body>
+</html>

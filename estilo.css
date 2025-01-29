@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+.container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.hotspot {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    animation: blink 2s infinite alternate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.hotspot strong {
+color: white; /* Escolha a cor desejada */
+
+}
+
+@keyframes blink {
+    0% { opacity: 0.5; }
+    100% { opacity: 0.1; }
+}
+dialog {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
