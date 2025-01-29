@@ -11,7 +11,7 @@ body {
     height: auto;
     display: block;
 }
-.hotspot {
+.bolinhaNaImagem {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -29,8 +29,8 @@ body {
     opacity: 0.5;
 }
 
-.hotspot strong {
-color: white; /* Escolha a cor desejada */
+.bolinhaNaImagem strong {
+color: white; 
 
 }
 

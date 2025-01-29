@@ -1,8 +1,8 @@
 function showPopup(info) {
-    document.getElementById('dialogText').textContent = info;
-    document.getElementById('infoDialog').showModal();
+    document.getElementById('janelaTexto').textContent = info;
+    document.getElementById('janela').showModal();
 }
 
 function closePopup() {
-    document.getElementById('infoDialog').close();
+    document.getElementById('janela').close();
 }
